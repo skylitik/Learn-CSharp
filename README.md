@@ -1,2 +1,2 @@
 # Learn-CSharp
-Folder with my training code
+Folder with code lessons
