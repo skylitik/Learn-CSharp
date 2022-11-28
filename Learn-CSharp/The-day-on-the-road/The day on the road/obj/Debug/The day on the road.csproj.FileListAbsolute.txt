@@ -1,0 +1,22 @@
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.AssemblyReference.cache
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.SuggestedBindingRedirects.cache
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The_day_on_the_road.Form1.resources
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The_day_on_the_road.Properties.Resources.resources
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.GenerateResource.cache
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.CoreCompileInputs.cache
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\bin\Debug\The day on the road.exe.config
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\bin\Debug\The day on the road.exe
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\bin\Debug\The day on the road.pdb
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.exe
+C:\Users\Itsupport\Source\Repos\skylitik\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.pdb
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\bin\Debug\The day on the road.exe.config
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\bin\Debug\The day on the road.exe
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\bin\Debug\The day on the road.pdb
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.AssemblyReference.cache
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.SuggestedBindingRedirects.cache
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The_day_on_the_road.Form1.resources
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The_day_on_the_road.Properties.Resources.resources
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.GenerateResource.cache
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.csproj.CoreCompileInputs.cache
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.exe
+C:\Users\Itsupport\Source\Repos\skylitik\Learn-CSharp\The-day-on-the-road\The day on the road\obj\Debug\The day on the road.pdb
