@@ -14,14 +14,15 @@ namespace The_day_on_the_road
         public Guy Bettor;
 
         public string GetDescription()
-        {
-            if (Amount > 5 && Amount <= 15)
+        {          
+            
+            if (Amount >= 5 && Amount <= 15)
             {
-                return Bettor.Name + "bet" + Amount + "usd on dog number" + Dog;
+                return Bettor.Name + " Bet " + Amount + " usd on dog number " + Dog;
             }
             else
             {
-                return this.Bettor.Name + "didn't bet";  
+                return this.Bettor.Name + " didn't bet";  
             }
 
         }

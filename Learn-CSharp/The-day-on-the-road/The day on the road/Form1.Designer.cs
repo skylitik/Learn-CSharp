@@ -303,7 +303,7 @@
             this.britney_label.Name = "britney_label";
             this.britney_label.Size = new System.Drawing.Size(352, 17);
             this.britney_label.TabIndex = 8;
-            this.britney_label.Text = "Britney bitch hasn\'t bet";
+            this.britney_label.Text = "Britney didn\'t bet";
             // 
             // sams_label
             // 
@@ -312,7 +312,7 @@
             this.sams_label.Name = "sams_label";
             this.sams_label.Size = new System.Drawing.Size(352, 17);
             this.sams_label.TabIndex = 8;
-            this.sams_label.Text = "Sams hasn\'t bet";
+            this.sams_label.Text = "Sams didn\'t bet";
             // 
             // johns_label
             // 
@@ -321,7 +321,7 @@
             this.johns_label.Name = "johns_label";
             this.johns_label.Size = new System.Drawing.Size(352, 17);
             this.johns_label.TabIndex = 8;
-            this.johns_label.Text = "Johns hasn\'t bet";
+            this.johns_label.Text = "Johns didn\'t bet";
             // 
             // bet_min
             // 
