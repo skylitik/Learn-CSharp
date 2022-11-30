@@ -12,7 +12,6 @@ namespace The_day_on_the_road
         public string Name;
         public Bet MyBet;
         public int Cash;
-
         public RadioButton MyRadioButton;
         public Label MyLabel;
 
@@ -21,8 +20,11 @@ namespace The_day_on_the_road
         public void UpdateLabels()
         {            
             
-            MyRadioButton.Text =  Name + " has " + Cash;
-            MyLabel.Text = MyBet.GetDescription();
+            MyRadioButton.Text =  Name + " has " + Cash + " usd";
+            if (MyBet!= null)
+            {
+                MyLabel.Text = MyBet.GetDescription();
+            }
 
         }
         public void ClearBet()
@@ -30,12 +32,10 @@ namespace The_day_on_the_road
           MyBet.Amount = 0;          
         }
         public bool PlaceBet(int Amount, int Dog)
-        {
-            
-            if (Cash >= 5)
+        {            
+            if (Cash >= Amount)
             {
-                MyBet.Amount = Amount;
-                MyBet.Dog = Dog;
+                MyBet = new Bet() {Amount = Amount, Dog = Dog, Bettor = this };
                 return true;
             }
             else

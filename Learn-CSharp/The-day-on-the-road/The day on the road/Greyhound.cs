@@ -17,20 +17,21 @@ namespace The_day_on_the_road
         public Random MyRandom;
 
         public bool Run()
-        {
-            int distance = 0;
-            distance = MyRandom.Next(1,4);
-            Point p = MyPictureBox.Location;
-            p.X += distance;
-            MyPictureBox.Location = p;
-            return true;
+        {                  
+            Location += MyRandom.Next(1, 68);
+            MyPictureBox.Left = StartPosition + Location;
+            if (Location >= RacetrackLength)
+            {
+                return true;
+            }
+            return false;
 
         }
 
         public void TakeStartPosition() 
         {
-            StartPosition = 0;
-
+            Location = 0;
+            MyPictureBox.Left = StartPosition;
         }
     }
 }

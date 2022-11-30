@@ -11,18 +11,18 @@ namespace The_day_on_the_road
     {
         public int Amount;
         public int Dog;
-        public Guy Bettor;
+        public Guy Bettor = new Guy();
 
         public string GetDescription()
         {          
-            
-            if (Amount >= 5 && Amount <= 15)
+              
+            if (Amount > 0 )
             {
-                return Bettor.Name + " Bet " + Amount + " usd on dog number " + Dog;
+                return Bettor.Name + " set " + Amount + " on dog number " + Dog;
             }
             else
             {
-                return this.Bettor.Name + " didn't bet";  
+                return Bettor.Name + "didn't bet";
             }
 
         }
