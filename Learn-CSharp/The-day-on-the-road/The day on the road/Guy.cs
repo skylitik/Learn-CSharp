@@ -10,27 +10,32 @@ namespace The_day_on_the_road
     public class Guy
     {
         public string Name;
-        public Bet MyBet = new Bet();
+        public Bet MyBet;
         public int Cash;
-
         public RadioButton MyRadioButton;
         public Label MyLabel;
 
+       
+
         public void UpdateLabels()
-        {
-            MyRadioButton.Text = Name + " has " + Cash;
-            MyLabel.Text = Name + "bet's" + MyBet + " on chart number ";
+        {            
+            
+            MyRadioButton.Text =  Name + " has " + Cash + " usd";
+            if (MyBet!= null)
+            {
+                MyLabel.Text = MyBet.GetDescription();
+            }
+
         }
         public void ClearBet()
         {
           MyBet.Amount = 0;          
         }
         public bool PlaceBet(int Amount, int Dog)
-        {
-            if (Cash >= 5)
+        {            
+            if (Cash >= Amount)
             {
-                MyBet.Amount = Amount;
-                MyBet.Dog = Dog;
+                MyBet = new Bet() {Amount = Amount, Dog = Dog, Bettor = this };
                 return true;
             }
             else
@@ -42,7 +47,7 @@ namespace The_day_on_the_road
         }
         public void Collect(int Winner)
         {
-
+            MyBet.PayOut(Winner);
         }
     }
 }

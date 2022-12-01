@@ -44,7 +44,7 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox_Bet = new System.Windows.Forms.GroupBox();
             this.dog_updown = new System.Windows.Forms.NumericUpDown();
             this.bet_value = new System.Windows.Forms.NumericUpDown();
             this.britney_label = new System.Windows.Forms.Label();
@@ -67,7 +67,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dog_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dog_4)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.groupBox_Bet.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dog_updown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bet_value)).BeginInit();
             this.SuspendLayout();
@@ -75,9 +75,9 @@
             // dog_1
             // 
             this.dog_1.Image = global::The_day_on_the_road.Properties.Resources.Dog1;
-            this.dog_1.Location = new System.Drawing.Point(12, 12);
+            this.dog_1.Location = new System.Drawing.Point(1, 12);
             this.dog_1.Name = "dog_1";
-            this.dog_1.Size = new System.Drawing.Size(87, 59);
+            this.dog_1.Size = new System.Drawing.Size(75, 59);
             this.dog_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dog_1.TabIndex = 1;
             this.dog_1.TabStop = false;
@@ -88,7 +88,7 @@
             this.fieldbox.Location = new System.Drawing.Point(-64, 2);
             this.fieldbox.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
             this.fieldbox.Name = "fieldbox";
-            this.fieldbox.Size = new System.Drawing.Size(815, 379);
+            this.fieldbox.Size = new System.Drawing.Size(761, 379);
             this.fieldbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.fieldbox.TabIndex = 0;
             this.fieldbox.TabStop = false;
@@ -96,9 +96,9 @@
             // dog_2
             // 
             this.dog_2.Image = global::The_day_on_the_road.Properties.Resources.Dog1;
-            this.dog_2.Location = new System.Drawing.Point(12, 107);
+            this.dog_2.Location = new System.Drawing.Point(1, 107);
             this.dog_2.Name = "dog_2";
-            this.dog_2.Size = new System.Drawing.Size(87, 59);
+            this.dog_2.Size = new System.Drawing.Size(75, 59);
             this.dog_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dog_2.TabIndex = 1;
             this.dog_2.TabStop = false;
@@ -106,9 +106,9 @@
             // dog_3
             // 
             this.dog_3.Image = global::The_day_on_the_road.Properties.Resources.Dog1;
-            this.dog_3.Location = new System.Drawing.Point(12, 201);
+            this.dog_3.Location = new System.Drawing.Point(1, 201);
             this.dog_3.Name = "dog_3";
-            this.dog_3.Size = new System.Drawing.Size(87, 59);
+            this.dog_3.Size = new System.Drawing.Size(75, 59);
             this.dog_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dog_3.TabIndex = 1;
             this.dog_3.TabStop = false;
@@ -116,9 +116,9 @@
             // dog_4
             // 
             this.dog_4.Image = global::The_day_on_the_road.Properties.Resources.Dog1;
-            this.dog_4.Location = new System.Drawing.Point(12, 298);
+            this.dog_4.Location = new System.Drawing.Point(1, 298);
             this.dog_4.Name = "dog_4";
-            this.dog_4.Size = new System.Drawing.Size(87, 59);
+            this.dog_4.Size = new System.Drawing.Size(75, 59);
             this.dog_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dog_4.TabIndex = 1;
             this.dog_4.TabStop = false;
@@ -231,31 +231,31 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Minimal bet";
             // 
-            // groupBox2
+            // groupBox_Bet
             // 
-            this.groupBox2.AutoSize = true;
-            this.groupBox2.Controls.Add(this.dog_updown);
-            this.groupBox2.Controls.Add(this.bet_value);
-            this.groupBox2.Controls.Add(this.britney_label);
-            this.groupBox2.Controls.Add(this.sams_label);
-            this.groupBox2.Controls.Add(this.johns_label);
-            this.groupBox2.Controls.Add(this.bet_min);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.start_button);
-            this.groupBox2.Controls.Add(this.bet_button);
-            this.groupBox2.Controls.Add(this.name_bet_label);
-            this.groupBox2.Controls.Add(this.britney_radio);
-            this.groupBox2.Controls.Add(this.sams_radio);
-            this.groupBox2.Controls.Add(this.john_radio);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Location = new System.Drawing.Point(12, 387);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(674, 217);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Bet adder";
+            this.groupBox_Bet.AutoSize = true;
+            this.groupBox_Bet.Controls.Add(this.dog_updown);
+            this.groupBox_Bet.Controls.Add(this.bet_value);
+            this.groupBox_Bet.Controls.Add(this.britney_label);
+            this.groupBox_Bet.Controls.Add(this.sams_label);
+            this.groupBox_Bet.Controls.Add(this.johns_label);
+            this.groupBox_Bet.Controls.Add(this.bet_min);
+            this.groupBox_Bet.Controls.Add(this.label5);
+            this.groupBox_Bet.Controls.Add(this.start_button);
+            this.groupBox_Bet.Controls.Add(this.bet_button);
+            this.groupBox_Bet.Controls.Add(this.name_bet_label);
+            this.groupBox_Bet.Controls.Add(this.britney_radio);
+            this.groupBox_Bet.Controls.Add(this.sams_radio);
+            this.groupBox_Bet.Controls.Add(this.john_radio);
+            this.groupBox_Bet.Controls.Add(this.label7);
+            this.groupBox_Bet.Controls.Add(this.label9);
+            this.groupBox_Bet.Controls.Add(this.label8);
+            this.groupBox_Bet.Location = new System.Drawing.Point(12, 387);
+            this.groupBox_Bet.Name = "groupBox_Bet";
+            this.groupBox_Bet.Size = new System.Drawing.Size(674, 217);
+            this.groupBox_Bet.TabIndex = 2;
+            this.groupBox_Bet.TabStop = false;
+            this.groupBox_Bet.Text = "Bet adder";
             // 
             // dog_updown
             // 
@@ -303,7 +303,7 @@
             this.britney_label.Name = "britney_label";
             this.britney_label.Size = new System.Drawing.Size(352, 17);
             this.britney_label.TabIndex = 8;
-            this.britney_label.Text = "Britney bitch hasn\'t bet";
+            this.britney_label.Text = "Britney didn\'t bet";
             // 
             // sams_label
             // 
@@ -312,7 +312,7 @@
             this.sams_label.Name = "sams_label";
             this.sams_label.Size = new System.Drawing.Size(352, 17);
             this.sams_label.TabIndex = 8;
-            this.sams_label.Text = "Sams hasn\'t bet";
+            this.sams_label.Text = "Sams didn\'t bet";
             // 
             // johns_label
             // 
@@ -321,7 +321,7 @@
             this.johns_label.Name = "johns_label";
             this.johns_label.Size = new System.Drawing.Size(352, 17);
             this.johns_label.TabIndex = 8;
-            this.johns_label.Text = "Johns hasn\'t bet";
+            this.johns_label.Text = "Johns didn\'t bet";
             // 
             // bet_min
             // 
@@ -448,7 +448,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(698, 607);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox_Bet);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dog_4);
             this.Controls.Add(this.dog_3);
@@ -464,8 +464,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dog_4)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.groupBox_Bet.ResumeLayout(false);
+            this.groupBox_Bet.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dog_updown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bet_value)).EndInit();
             this.ResumeLayout(false);
@@ -490,7 +490,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox_Bet;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button start_button;
         private System.Windows.Forms.Button bet_button;
