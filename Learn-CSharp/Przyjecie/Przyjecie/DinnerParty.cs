@@ -8,10 +8,10 @@ namespace Przyjecie
 {
     public class DinnerParty
     {
-        private int NumberOfPeople;
-        public decimal CostOfBeveragesPerPerson;
-        public decimal CostOfDecorations = 0;
-        public const int CostOfFoodPerPerson = 25;
+        int NumberOfPeople;
+        decimal CostOfBeveragesPerPerson;
+        decimal CostOfDecorations = 0;
+        const int CostOfFoodPerPerson = 25;
 
         public void SetHealthyOption(bool healthyOption)
         {
