@@ -16,7 +16,7 @@ namespace Farmer
         public Form1()
         {
             InitializeComponent();
-            farmer = new Farmer() { NumbersOfCows = 15 };
+            farmer = new Farmer(15, 30);
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
