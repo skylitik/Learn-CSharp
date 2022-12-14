@@ -7,11 +7,26 @@ using System.Threading.Tasks;
 namespace Przyjecie
 {
     public class DinnerParty
-    {
-        int NumberOfPeople;
+    { 
+        const int CostOfFoodPerPerson = 25;
+        private int numberOfPeople;
+        public int NumberOfPeople
+        {
+            get {return numberOfPeople; }
+            set {
+                numberOfPeople = value;
+                CalculateCostOfDecorations(fancyDecorations); } 
+        }
+        
+        private bool fancyDecorations;
         decimal CostOfBeveragesPerPerson;
         decimal CostOfDecorations = 0;
-        const int CostOfFoodPerPerson = 25;
+        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations) {
+            NumberOfPeople = numberOfPeople;
+            this.fancyDecorations = fancyDecorations;
+            SetHealthyOption(healthyOption);            
+            CalculateCostOfDecorations(fancyDecorations);
+        }
 
         public void SetHealthyOption(bool healthyOption)
         {
@@ -26,6 +41,7 @@ namespace Przyjecie
         }
         public void CalculateCostOfDecorations(bool fancy)
         {
+            fancyDecorations = fancy;
             if (fancy)
             {
                 CostOfDecorations = (15.00M * NumberOfPeople) + 50M;
@@ -48,14 +64,6 @@ namespace Przyjecie
                 return totalCost;
             }
         }
-        public void SetPartyOptions(int people, bool fancy)
-        {
-            NumberOfPeople = people;
-            CalculateCostOfDecorations(fancy);
-        }
-        public int GetNumberOfPeople()
-        {
-            return NumberOfPeople;
-        }
+       
     }
 }

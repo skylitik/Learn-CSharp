@@ -17,9 +17,7 @@ namespace Przyjecie
         {         
                             
             InitializeComponent();
-            dinnerParty = new DinnerParty();
-            dinnerParty.SetHealthyOption(checkBox_healthy.Checked);
-            dinnerParty.CalculateCostOfDecorations(checkBox_decorations.Checked);
+            dinnerParty = new DinnerParty((int)numeric_people.Value, checkBox_healthy.Checked, checkBox_decorations.Checked);            
             DisplayDinnerPartyCost();
             
 
@@ -42,8 +40,7 @@ namespace Przyjecie
         private void numeric_people_ValueChanged(object sender, EventArgs e)
         {
             
-            int number_of_people = (int)numeric_people.Value;
-            dinnerParty.SetPartyOptions(number_of_people, checkBox_decorations.Checked);
+            dinnerParty.NumberOfPeople = (int)numeric_people.Value;            
             DisplayDinnerPartyCost();
 
         }
