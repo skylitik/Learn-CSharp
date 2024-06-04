@@ -1,0 +1,10 @@
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\bin\Release\Farmer.exe.config
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\bin\Release\Farmer.exe
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\bin\Release\Farmer.pdb
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.csproj.AssemblyReference.cache
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.Form1.resources
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.Properties.Resources.resources
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.csproj.GenerateResource.cache
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.csproj.CoreCompileInputs.cache
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.exe
+C:\Users\ITSupport\Source\Repos\skylitik\Learn-CSharp\Learn-CSharp\Farmer\Farmer\obj\Release\Farmer.pdb

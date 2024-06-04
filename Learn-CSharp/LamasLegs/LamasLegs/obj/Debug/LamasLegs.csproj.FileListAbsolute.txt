@@ -1,0 +1,10 @@
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\bin\Debug\LamasLegs.exe.config
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\bin\Debug\LamasLegs.exe
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\bin\Debug\LamasLegs.pdb
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.csproj.AssemblyReference.cache
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.Form1.resources
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.Properties.Resources.resources
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.csproj.GenerateResource.cache
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.csproj.CoreCompileInputs.cache
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.exe
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\LamasLegs\LamasLegs\obj\Debug\LamasLegs.pdb
