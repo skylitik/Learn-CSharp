@@ -9,3 +9,13 @@ C:\Users\Itsupport\source\repos\skylitik\Learn-CSharp\Przyjecie\Przyjecie\obj\De
 C:\Users\Itsupport\source\repos\skylitik\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.csproj.CoreCompileInputs.cache
 C:\Users\Itsupport\source\repos\skylitik\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.exe
 C:\Users\Itsupport\source\repos\skylitik\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.pdb
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\bin\Debug\Przyjecie.exe.config
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\bin\Debug\Przyjecie.exe
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\bin\Debug\Przyjecie.pdb
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.csproj.AssemblyReference.cache
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.Form1.resources
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.Properties.Resources.resources
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.csproj.GenerateResource.cache
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.csproj.CoreCompileInputs.cache
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.exe
+C:\Users\ITSupport\source\repos\skylitik\Learn-CSharp\Learn-CSharp\Przyjecie\Przyjecie\obj\Debug\Przyjecie.pdb

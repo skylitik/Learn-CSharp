@@ -17,7 +17,7 @@ namespace Przyjecie
         {         
                             
             InitializeComponent();
-            dinnerParty = new DinnerParty((int)numeric_people.Value, checkBox_healthy.Checked, checkBox_decorations.Checked);            
+            dinnerParty = new DinnerParty((int)numeric_people.Value, checkBox_healthy.Checked, checkBox_decorations.Checked);           
             DisplayDinnerPartyCost();
             
 
@@ -48,6 +48,13 @@ namespace Przyjecie
         {
             decimal Cost = dinnerParty.CalculateCost(checkBox_healthy.Checked);
             label_empty.Text = Cost.ToString("c");
+        }
+
+      
+
+        private void label_cost_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

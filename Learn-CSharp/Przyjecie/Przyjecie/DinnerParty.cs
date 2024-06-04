@@ -8,8 +8,9 @@ namespace Przyjecie
 {
     public class DinnerParty
     { 
-        const int CostOfFoodPerPerson = 25;
+        public const int CostOfFoodPerPerson = 25;
         private int numberOfPeople;
+        private bool fancyDecorations;
         public int NumberOfPeople
         {
             get {return numberOfPeople; }
@@ -18,7 +19,7 @@ namespace Przyjecie
                 CalculateCostOfDecorations(fancyDecorations); } 
         }
         
-        private bool fancyDecorations;
+        
         decimal CostOfBeveragesPerPerson;
         decimal CostOfDecorations = 0;
         public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations) {
